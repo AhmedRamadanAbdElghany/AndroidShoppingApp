@@ -1,0 +1,75 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+sellers/uid{ 
++isProdsEmpty :{true,false}
++products{
+list of items{
+productid,type , price , quantitiy
+productid,type , price , quantitiy
+productid,type , price , quantitiy
+}
+}
+}
+
+
+users/uid{
++id
++isCartEmpty:{true,false}
++cartItems{
+list of items{
+productid,type , price , quantitiy
+productid,type , price , quantitiy
+productid,type , price , quantitiy
+
+}
+}
+}
+
+}
+
+
+
+
+"items" : {
+    "item0" : {
+      "description" : "NOTE : add items in the following format",
+      "name" : "sample name",
+      "price" : 0,
+      "productID" : 0,
+      "quantity" : 0,
+      "type" : "sample type"
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ifSellerListEmpty.setVisibility(View.VISIBLE);
+progressBar.setVisibility(View.GONE);

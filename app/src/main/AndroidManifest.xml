@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ub.akshay.nitkart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Shopping"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Capture" />
+        <activity android:name=".CheckOutScreen" />
+        <activity android:name=".forgotPassword" />
+        <activity android:name=".IndividualProduct" />
+        <activity android:name=".Login" />
+        <activity android:name=".newUser" />
+        <activity android:name=".Search" />
+        <activity android:name=".ShoppingCartWindow" />
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Supermarket" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Favourites" />
+        <activity android:name=".Superm"></activity>
+    </application>
+
+</manifest>

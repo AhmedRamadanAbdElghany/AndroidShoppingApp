@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/layoutfav"
+        >
+
+        <ImageView
+            android:id="@+id/favpic"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tomato" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/favname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="tomatos"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/favtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/colorBlack"
+                android:text="vegetables"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/favdescribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:text="FSDFSDFDGHGGDDSFSDEGFDGFHGGFDG"
+                android:textColor="@color/colorBlack"
+                android:textSize="10sp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/favprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="20 $"
+                android:layout_gravity="bottom|end"
+                android:textColor="@color/viewfinder_laser"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
